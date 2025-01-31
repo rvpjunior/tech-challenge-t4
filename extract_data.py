@@ -1,6 +1,7 @@
 import yfinance as yf
 import argparse
 
+# Parsing the command line arguments
 parser = argparse.ArgumentParser(description="Download stock data for a given company and date range.")
 parser.add_argument("--company", required=True, help="Company ticker symbol")
 parser.add_argument("--start", required=True, help="Start year in YYYYformat")
