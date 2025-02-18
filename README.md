@@ -29,3 +29,7 @@ Replace `<company>`, `<start_year>`, and `<end_year>` with the desired values.
 To visualize and analyze the data behaviour, run the `analyze_data` notebook.
 
 You must replace the `FILE_PATH` value with the data file path.
+
+### Train the model
+
+Run the notebook to train the model and it will be saved in `google_prediction_model.keras` file.
